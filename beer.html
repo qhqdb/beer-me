@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./assets/css/tailwind.css" />
     <link rel="stylesheet" href="./assets/css/style.css"/>
     
-    <title>document</title>
+    <title>Beer me!</title>
    
 </head>
 
@@ -29,8 +29,9 @@
             <label class="block">
                 <input type="Beer Name" name="name of beer" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1 items-center" placeholder="Beer Name" />
                 </label>
-            <button class="bg-transparent hover:bg-white-500 text-white-700 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded">Random</button>
-            
+            <div class="bg-transparent hover:bg-white-500 text-white-700 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded">
+                <button class="beerBtn">Random</button>
+            </div>
             <button class="bg-transparent hover:bg-white-500 text-white-700 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded">Search</button>
             </section>
             
@@ -46,6 +47,12 @@
            
             
         </div>
+
+
+        <div class="container">
+            <h3 class="random-beer"></h3>
+            <p class="description"></p>
+        </div>
    
           
             </div>
@@ -57,6 +64,7 @@
 
 </section>
 
-<script src="script.js"></script>    
+<script src="script.js"></script>  
+<script src="./assets/js/beer.js"></script>
 </body>
 </html>
