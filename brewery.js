@@ -43,7 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             console.log(data)
             const name = data[1].name
-            console.log(name)
             const brewery_type = data[1].brewery_type
             // console.log(brewery_type)
             const state = data[1].state
