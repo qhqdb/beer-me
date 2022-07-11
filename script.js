@@ -14,4 +14,3 @@ function clickBeer(){
 brewbtn.addEventListener("click" ,clickBrewery )
 beerbtn.addEventListener("click",clickBeer )
 
-// Home Page JS End
