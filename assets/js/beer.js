@@ -24,3 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
     startBtn.addEventListener('click',getData)
 
 })
+
+var hpBeer = document.querySelector("#homePageBeer")
+
+function backToHome(){
+    document.location.href="index.html"
+}
+
+hpBeer.addEventListener("click", backToHome)
