@@ -5,18 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const streetAddress = document.querySelector(".streetAddress")
     const stateBrew = document.querySelector(".state")
     const zipcode = document.querySelector(".zipCode")
-<<<<<<< HEAD
-=======
-    
->>>>>>> 1622eb002d4114a6acd6a9a69b49755754162946
     // const descriptionDisplay = document.querySelector(".descriptionbrew")
     function getData(e){
-<<<<<<< HEAD
         e.preventDefault()
-=======
-        // e.preventDefault()
-        
->>>>>>> 1622eb002d4114a6acd6a9a69b49755754162946
         fetch('https://api.openbrewerydb.org/breweries/random',{
             cache: "no-cache" // First time we ran this, it was saving the brewery so William came in and said we had to use this line of code so when we click "Random" it does pulled the saved aray.
         })
@@ -35,10 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const street = data[0].street
             // console.log(street)
             const postal_code = data[0].postal_code
-<<<<<<< HEAD
-=======
-
->>>>>>> 1622eb002d4114a6acd6a9a69b49755754162946
             // randomBrew.innerHTML = 'Name:'+ ' ' + name + ' ' + 'Brew Type:'+ ' ' + brewery_type + ' ' + 'Street Address:'+ street + ' ' +'State:' +' '+ state
             randomBrew.innerHTML = 'Name:'+ ' ' + name + ' '
             brewType.innerHTML = 'Brew Type:'+ ' ' + brewery_type + ' '
@@ -51,11 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     startBtn.addEventListener('click', getData)
 })
+
 var hpBrew = document.querySelector("#homePageBrew")
+
 function backToHome(){
     document.location.href="index.html"
 }
 hpBrew.addEventListener("click", backToHome)
+
 // Form Elements, Test Jquery to target input element,
 function isChecked(checkornot){
     if (document.getElementById(checkornot).checked){
