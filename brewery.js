@@ -44,7 +44,6 @@ var hpBrew = document.querySelector("#homePageBrew")
 function backToHome(){
     document.location.href="index.html"
 }
-
 hpBrew.addEventListener("click", backToHome)
 
 // Form Elements, Test Jquery to target input element,
