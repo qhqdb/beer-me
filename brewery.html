@@ -6,20 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/tailwind.css" />
     <link rel="stylesheet" href="./assets/css/style.css"/>
-    
     <title>document</title>
-   
 </head>
-
 <body>
     <div class="black-300 text-5xl">
         <h1 class='font-serif text-center'>Brewery</h1>
     </div>
-   
-
     <main>
         <section class="boxes">
+<<<<<<< HEAD
+=======
             
+>>>>>>> 1622eb002d4114a6acd6a9a69b49755754162946
             <style>
                 .boxes {
                     display: flex;
@@ -31,7 +29,10 @@
             </style>
             <div class="p-4 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700">
                 <form class="space-y-6" action="#">
+<<<<<<< HEAD
+=======
             
+>>>>>>> 1622eb002d4114a6acd6a9a69b49755754162946
             <label class="block">
                 <input type="State" name="state" class=" mt-5  px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1" placeholder="State" />
               </label>
@@ -39,6 +40,28 @@
                 <input type="City" name="city" class="align-item:center mt-1 px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1" placeholder="City" />
               </label>
             <label class="block">
+<<<<<<< HEAD
+                <!-- <input type="Type" name="type" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1 items-center" placeholder="Type"/>  -->
+                <ul id="breweryTypes" id="breweryContent" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1 items-center">
+                    <p>Types</p>
+                    <li ><label for="micro"><input id="microtype" type="checkbox" name="type" class="checked" onclick="isChecked('micro')"><span>Micro</span></label></li>
+                    <li ><label for="nano"><input id="nanotype" type="checkbox" name="type" class="checked" onclick="isChecked('nano')"><span>Nano</span></label></li>
+                    <li ><label for="regional"><input id="regionaltype" type="checkbox" name="type" class="checked" onclick="isChecked('regional')"><span>Regional</span></label></li>
+                    <li ><label for="brewpub"><input id="brewpubtype" type="checkbox" name="type" class="checked" onclick="isChecked('brewpub)"><span>Brewpub</span></label></li>
+                    <li ><label for="large"><input id="largetype" type="checkbox" name="type" class="checked" onclick="isChecked('large)"><span>Large</span></label></li>
+                </ul>
+            </label>
+            <button class="bg-transparent hover:bg-white-500 text-white-700 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded" id="randomBrew">Random</button>
+            <button class="bg-transparent hover:bg-white-500 text-yellow-600 font-semibold hover:text-black  px-4 border border-black hover:border-transparent rounded">Search</button>
+            </section>
+            <section class="flex justify-center">
+            <button class="bg-transparent hover:bg-white-500 text-yellow-200 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded" id="randomBrew">Previous</button>
+            <button class="bg-transparent hover:bg-white-500 text-yellow-200 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded">Next</button>
+            </section>
+            <section class="justify-end mt-44">
+            <button class="bg-transparent hover:bg-white-500 text-yellow-200 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded" id="homePageBrew">Back to Homepage></button>
+        </section>
+=======
                 <input type="Type" name="type" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1 items-center" placeholder="Type" />
 <<<<<<< HEAD
             </label>
@@ -72,6 +95,7 @@
             
         </div>
         
+>>>>>>> 1622eb002d4114a6acd6a9a69b49755754162946
         <div class="container">
             
             <h3 class="random-brew"></h3>
@@ -81,17 +105,7 @@
             <h3 class="state"></h3>
             <p class="description"></p>
         </div>
-   
-          
-            </div>
-          </div>
     </section>
-    <section>
-     
-        </div>
-
-</section>
-
 <script src="brewery.js"></script>
 </body>
 </html>
