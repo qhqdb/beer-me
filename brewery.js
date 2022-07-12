@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // const descriptionDisplay = document.querySelector(".descriptionbrew")
 
     function getData(e){
-        // e.preventDefault()
+        e.preventDefault()
         
         fetch('https://api.openbrewerydb.org/breweries/random',{
             cache: "no-cache" // First time we ran this, it was saving the brewery so William came in and said we had to use this line of code so when we click "Random" it does pulled the saved aray.
@@ -80,3 +80,20 @@ function backToHome(){
 }
 
 hpBrew.addEventListener("click", backToHome)
+
+// Form Elements, Test Jquery to target input element,
+
+function isChecked(checkornot){
+    if (document.getElementById(checkornot).checked){
+        document.getElementById("info")
+        console.log("checked")
+    }
+    else {
+        document.getElementById("info");
+        console.log("notChecked")
+    }
+}
+
+function checkType(type) {
+
+}
