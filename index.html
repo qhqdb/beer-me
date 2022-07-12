@@ -5,31 +5,58 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/tailwind.css" />
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+  
 </head>
 <!--Title of the page in h1 format-->
+
 <body>
-  <section class="title">
-    <h1>Would you like a Brewery recommendation or Beer?</h1>
-  </section>
-  
-  <section class="main-content">
-    <div class="brewery-class">
-      <button id="breweryBtn">Brewery</button>
-      <img src="images/brewery.jpg" alt="Picture of brewery">
-    </div>
+    <h1 class=' mt-10 mb-2 black-300 text-5xl font-serif text-center'>Beer Me</h1>
+    <h3 class='text-20px font-serif text-center'>A brewery locator and beer recommendations</h3>
     
-    <div class="beer-class">
-      <button class="beerBtn" id="beerBtn">Beer</button>
-      <img src="images/beer.jpg" alt="Picture of beer">
+    <div class="grid place-items-center">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg place-items-center">
+        <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+        </div>
+      </div>
     </div>
+     
+      
+    
+    
+    <button class="absolute bottom-60 left-54 bg-transparent text-yellow-200 hover:bg-white-500 text-white-700 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded">Brewery</button>
+     
+     
+      <button class="absolute bottom-60 right-60 h-16 w-16 bg-transparent text-yellow-200 hover:bg-white-500 text-white-700 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded">Beer</button>
+    
   
-  </section>
-  <section class="footer">
-    <h3>Mady by: Liu Joey, Michael Ha, Leslie Saucedo, Ruben Sanchez</h3>
   </section>
 
-  <script src="script.js"></script>
+  <footer>
+    <h3 class="footer">
+      Made by: Joey Liu, Leslie Saucedo, Michael Ha, and Ruben
+    </h3>
+    <style>
+      footer {
+        margin-top: 100px;
+        
+      }
+    </style>
+  </footer>
+  
+
+<script src="script.js"></script>
 </body>
 
 
