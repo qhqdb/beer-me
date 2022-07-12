@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    flex-direction: column;
+    background-image: url('https://www.pubatbaxter.com/wp-content/uploads/2020/02/Baxter-9th-Anniversary-Party-107-of-119-768x512.jpg');
+    background-size: cover;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+}
+
+.box {
+    display: block;
+    text-align:left;
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 50px;
+    height: 350px;
+    width: 18%;
+    margin-left: 300px;
+
+
+}
+
+.btn-primary {
+    margin-top: 70px;
+    margin-left: 10px ;
+    padding: 5px;
+    
+}
+
+.form-control {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.box-2 {
+    justify-content: end;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 750px;
+    width: 25%;
+}
+
+.btn-secondary{
+    margin-top: 50%;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+footer {
+    padding: 20px;
+    text-align: start;
+    margin-top: 650px;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
