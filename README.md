@@ -13,7 +13,9 @@ https://west-korea.github.io/first-project/
 
 ## Credit
 Punk API -- https://punkapi.com/
+
 Open Brewery API -- https://www.openbrewerydb.org/
+
 Tailwind -- https://tailwindcss.com/
 
 ## Collaborators
