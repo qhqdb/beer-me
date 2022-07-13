@@ -22,7 +22,7 @@ var formSubmitHandler = function (event) {
 };
 
 var getBeer = function (user) {
-    var apiUrl = 'https://api.punkapi.com/v2/beers?beer_name=' + beerName;
+    var apiUrl = 'https://api.punkapi.com/v2/beers?beer_name=${}';
 
     fetch(apiUrl)
         .then(function (response) {

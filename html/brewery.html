@@ -28,11 +28,18 @@
             
                 <label class="block">
                 <input type="State" name="state" class=" mt-5  px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1" placeholder="State" />
+
                 </label>
                 <label class="block">
                 <input type="City" name="city" class="align-item:center mt-1 px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1" placeholder="City" />
                 </label>
                 <label class="block">
+            </label>
+            <label class="block">
+                <input type="City" name="city" class="align-item:center mt-1 px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1" placeholder="City" />
+              </label>
+            <label class="block">
+
                 <ul id="breweryTypes" id="breweryContent" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1 items-center">
                     <p>Types</p>
                     <li ><label for="micro"><input id="microtype" type="checkbox" name="type" class="checked" onclick="isChecked('micro')"><span>Micro</span></label></li>
@@ -41,6 +48,7 @@
                     <li ><label for="brewpub"><input id="brewpubtype" type="checkbox" name="type" class="checked" onclick="isChecked('brewpub')"><span>Brewpub</span></label></li>
                     <li ><label for="large"><input id="largetype" type="checkbox" name="type" class="checked" onclick="isChecked('large')"><span>Large</span></label></li>
                 </ul>
+
                 </label>
                 <button class="bg-transparent hover:bg-white-500 text-yellow-600 font-semibold hover:text-black  px-4 border border-black hover:border-transparent rounded" id="randomBrew">Random</button>
                 <button class="bg-transparent hover:bg-white-500 text-yellow-600 font-semibold hover:text-black  px-4 border border-black hover:border-transparent rounded">Search</button>
