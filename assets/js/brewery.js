@@ -42,7 +42,12 @@ document.addEventListener('DOMContentLoaded', () => {
 var hpBrew = document.querySelector("#homePageBrew")
 
 function backToHome(){
-    document.location.href="index.html"
+    // console.log("startingbacktohome")
+    // console.log(window.location.href)
+    window.location.replace("../index.html")
+    // console.log(window.location.href)
+
+   
 }
 hpBrew.addEventListener("click", backToHome)
 
