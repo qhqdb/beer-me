@@ -6,19 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/tailwind.css" />
     <link rel="stylesheet" href="../assets/css/style.css"/>
-    
     <title>Beer me!</title>
-   
 </head>
-
 <body>
-    <div class="black-300 text-5xl">
+    <div class="border-orange-400 black-300 text-5xl">
         <h1 class='font-serif text-center'>Beer</h1>
     </div>
-    
     <main>
         <section class="boxes">
-            
             <style>
                 .boxes {
                     display: flex;
@@ -28,61 +23,36 @@
                     margin-left: 70px;
                 }
             </style>
-            <div class="p-4 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700">
-            <form id="beerSearch" class="space-y-6" action="#">
-         
+        <div class="p-4 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700 m-40">
+            <form class="space-y-6" action="#">
             <label class="block">
                 <input id="abvLess" class=" mt-5  px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1" placeholder="lower than ABV " />
               </label>
             <label class="block">
                 <input id="abvGreater" name="abv" class="align-item:center mt-1 px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1" placeholder="greater than ABV" />
               </label>
-            
               <label class="block">
-                <input id="beerInput" name="name of beer" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1 items-center" placeholder="Beer Name" />
+                <input type="Beer Name" name="name of beer" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-100 placeholder-slate-400 focus:outline-none focus:border-sky-300 focus:ring-sky-200 block rounded-md sm:text-sm focus:ring-1 items-center" placeholder="Beer Name" />
                 </label>
-            
-            
-            
-            <div class="beerBtn">
+        <div class="beerBtn">
                 <button class="bg-transparent hover:bg-white-500 text-white-700 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded">Random</button>
             </div>
-            
             <button class="bg-transparent hover:bg-white-500 text-white-700 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded">Search</button>
-
-
-            <section class="justify-end mt-44">
-                <button class="bg-transparent hover:bg-white-500 text-yellow-200 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded" type ="reset" id="homePageBeer">Back to Homepage</button>
-                <!-- Note: Type is default to submit added type = "reset" -->
-        </section>
-        
             </form>
-
-           
-
-            
-        </div>
-   
-
-
-        <div class="p-4 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700 ">
-            <h3 class="random-beer"></h3>
-            <p class="description text-left md:text-center" ></p>
-            <div id="beerResults"></div>
-        </div>
-
-        
-   
-          
             </div>
-          </div>
- 
-    
-     
+        <div class="absolute bottom-5 left-0">
+            <button class="bg-transparent hover:bg-white-500 text-yellow-200 font-semibold hover:text-white  px-4 border border-white-500 hover:border-transparent rounded mt-80" type= "reset" id="homePageBeer">Back to Homepage></button>
+            </div>
+        <div class="p-4 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700 m-80 ">
+            <h3 class="random-beer" style="
+                        color: orange;
+                        font-size: 30px;
+                        font-family: fantasy;
+                        "></h3>
+            <p class="description text-left md:text-center" ></p>
+            </div>
         </div>
-
     </section>
-
 <script src="../assets/js/beer.js"></script>
 </body>
 </html>
