@@ -59,31 +59,6 @@ var getBeer = function (beer) {
     });
 };
 
-var displayBeer = function (beers, SearchTerm) {
-    if (beers.length === 0) {
-      beerResults.textContent = 'No beers found.';
-      return;
-    }
-
-    beerSearchTerm.textContent = searchTerm
-
-    for (var i = 0; i < beers.length; i++) {
-        var searchedBeers = beers[i].name + '/' + beers[i].abv + 'ABV';
-        var searchedDescription = beers[i].description
-
-        var beerTitle = document.createElement('span');
-        var beerDescription = document.createElement('span');
-        beerTitle.textContent = searchedBeers;
-        beerDescription.textContent = searchedDescription;
-    
-        beerTitle.appendChild(beerDescription);
-        beerResults.appendChild(beerTitle);
-    
-      }
-    };
-
-beerSearch.addEventListener('submit', formSubmitHandler);
-
 
 var hpBeer = document.querySelector("#homePageBeer")
 
