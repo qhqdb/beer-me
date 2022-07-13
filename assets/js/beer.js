@@ -92,6 +92,7 @@ function backToHome(){
     // console.log(window.location.href)
     window.location.replace("../index.html")
     // console.log(window.location.href)
+
 }
 
 
