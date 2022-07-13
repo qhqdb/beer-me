@@ -4,11 +4,11 @@ var brewbtn = document.querySelector("#breweryBtn")
 var beerbtn =  document.querySelector("#beerBtn")
 
 function clickBrewery(){
-    document.location.href="brewery.html"
+    window.location.href="./html/brewery.html"
 }
 
 function clickBeer(){
-    document.location.href="beer.html"
+    window.location.href="./html/beer.html"
 }
 
 brewbtn.addEventListener("click" ,clickBrewery )
