@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 var hpBeer = document.querySelector("#homePageBeer")
 
 function backToHome(){
-    document.location.href="index.html"
+    window.location.replace("../index.html")
 }
 
 hpBeer.addEventListener("click", backToHome)
