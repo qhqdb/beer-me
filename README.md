@@ -20,3 +20,6 @@ Tailwind -- https://tailwindcss.com/
 
 ## Collaborators
 Joey Liu, Michael Ha, Leslie Saucedo
+
+## Screenshot
+<img src="./assets/images/Project1.png">
