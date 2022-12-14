@@ -5,7 +5,7 @@ Tired of Rainier?  Unsure of what to drink after a long day's work?  Here is the
 
 ## Install
 Find your beer or brewery here:
-https://west-korea.github.io/first-project/
+https://west-korea.github.io/beer-me/
 
 ## How to Use
 1.  Select Beer or Brewery.
